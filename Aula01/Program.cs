@@ -5,13 +5,11 @@ ResetColor();
 
 WriteLine("-------------------------------");
 WriteLine("     Primeiro Programa C#     ");
-WriteLine("-------------------------------");
-WriteLine();
+WriteLine("-------------------------------\n");
 WriteLine(" [1] Dizer Alo, Mundo!");
 WriteLine(" [2] Calcular média!");
 WriteLine(" [3] Mostrar o dobro de um número!");
-WriteLine(" [4] Dizer se é par ou impar!");
-WriteLine();
+WriteLine(" [4] Dizer se é par ou impar!\n");
 WriteLine("-------------------------------");
 
 ForegroundColor = ConsoleColor.Yellow;
