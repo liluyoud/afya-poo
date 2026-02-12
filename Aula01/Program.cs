@@ -18,3 +18,5 @@ var opcao = ReadLine();
 ResetColor();
 
 WriteLine("\n Você escolheu a opção: " + opcao);
+WriteLine("\n Pressione qualquer tecla para finalizar...");
+ReadKey();
