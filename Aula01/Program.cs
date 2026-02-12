@@ -17,6 +17,4 @@ Write(" Selecione uma opção: ");
 var opcao = ReadLine();
 ResetColor();
 
-WriteLine("-------------------------------");
 WriteLine("\n Você escolheu a opção: " + opcao);
-ReadLine();
