@@ -1,31 +1,15 @@
 ﻿using Aula06;
 using static System.Console;
 
-var produto = new Produto("TV LCD", 1999.99);
+ContaBancaria conta = new();
+WriteLine(conta.numero);
+WriteLine(conta.titular);
+WriteLine(conta.saldo);
+WriteLine(conta.ativo);
 
-// o que pode ser feito nesse produto
-//produto.quantidade = -1000;
-WriteLine("Comprar");
-produto.comprar();
-WriteLine(produto);
-ReadKey();
+if (conta.titular == null)
+{
+    WriteLine("a string é nula");
+}
 
-WriteLine("Comprar");
-produto.comprar();
-WriteLine(produto);ReadKey();
-
-WriteLine("Vender");
-produto.vender();
-WriteLine(produto);ReadKey();
-
-WriteLine("Vender");
-produto.vender();
-WriteLine(produto);ReadKey();
-
-WriteLine("Vender");
-produto.vender();
-WriteLine(produto);ReadKey();
-
-
-WriteLine(produto);
 ReadKey();
